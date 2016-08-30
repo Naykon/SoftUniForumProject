@@ -10,6 +10,7 @@ namespace SoftUniForumProject.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
             ContextKey = "SoftUniForumProject.Models.ApplicationDbContext";
         }
 

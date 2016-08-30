@@ -44,7 +44,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Author, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <select>
+                <select name="Author_Id">
                     @foreach (var author in ViewBag.Authors)
                     {
                         <option value="@author.Id">@author.UserName</option>
