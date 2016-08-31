@@ -12,11 +12,11 @@ namespace SoftUniForumProject.Controllers
         public ActionResult Index()
         {
             var db = new ApplicationDbContext();
-            var post = db.Posts.OrderByDescending(p => p.Date).Take(3);
+            var post = db.Posts.OrderByDescending(p => p.Date);
             return View(post.ToList());
         }
 
-        public ActionResult About()
+        public ActionResult Events()
         {
             ViewBag.Message = "Your application description page.";
 
