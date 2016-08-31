@@ -79,3 +79,4 @@ C:\Users\nikol\documents\visual studio 2015\Projects\SoftUniForumProject\SoftUni
 C:\Users\nikol\documents\visual studio 2015\Projects\SoftUniForumProject\SoftUniForumProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\nikol\documents\visual studio 2015\Projects\SoftUniForumProject\SoftUniForumProject\obj\Debug\SoftUniForumProject.dll
 C:\Users\nikol\documents\visual studio 2015\Projects\SoftUniForumProject\SoftUniForumProject\obj\Debug\SoftUniForumProject.pdb
+C:\Users\nikol\documents\visual studio 2015\Projects\SoftUniForumProject\SoftUniForumProject\obj\Debug\SoftUniForumProject.csprojResolveAssemblyReference.cache
