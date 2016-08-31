@@ -88,7 +88,7 @@ namespace SoftUniForumProject.Controllers
         [HttpPost]
         [Authorize(Roles = "Admin, Moderator")]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Title,Body,Date,Author_Id")] Post post)
+        public ActionResult Edit([Bind(Include = "Id,Title,Body,Date")] Post post)
         {
             if (ModelState.IsValid)
             {
